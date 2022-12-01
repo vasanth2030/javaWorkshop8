@@ -1,10 +1,20 @@
 package basicJava;
 
+import java.util.Scanner;
+
 public class BasicJavaClass {
 	public static void main(String[] args) {
-		String name ="Vasanth";
-		int age=21;
-		double height=178.5;
+		Scanner sc = new Scanner(System.in);
+		String name;
+		int age;
+		double height;
+		
+		System.out.println("Enter your name: ");
+		name=sc.nextLine();
+		System.out.println("Enter your age: ");
+		age=sc.nextInt();
+		System.out.println("Enter your height: ");
+		height=sc.nextDouble();
 		
 		System.out.println("Hello World");  // sysout
 		System.out.println("Name: "+name);
