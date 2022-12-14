@@ -22,4 +22,13 @@ public class AppVersion2 extends AppVersion1{
 	{
 		System.out.println("Doing function 3 with value: "+value);
 	}
+	
+	@Override
+	public void specialFunction1() {
+		System.out.println("Doing special function 1");
+	}
+	@Override
+	public void specialFunction2() {
+		System.out.println("Doing special function 1");		
+	}
 }

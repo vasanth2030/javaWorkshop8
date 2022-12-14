@@ -1,6 +1,6 @@
 package oops;
 
-public class AppVersion1 {
+public abstract class AppVersion1{
 	public void function1()
 	{
 		System.out.println("Doing function 1");
@@ -13,4 +13,7 @@ public class AppVersion1 {
 	{
 		System.out.println("Doing function 3");
 	}
+	
+	public abstract void specialFunction1();
+	public abstract void specialFunction2();
 }
