@@ -9,7 +9,7 @@ public class Application extends AppVersion2 implements ApplicationInterface {
 
 	@Override
 	public void func2() {
-		System.out.println("Function 2");
+		System.out.println("Function 2	");
 		// TODO Auto-generated method stub
 		
 	}
